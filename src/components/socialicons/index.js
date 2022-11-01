@@ -13,7 +13,7 @@ import { socialprofils } from "../../content_option";
 export const Socialicons = (params) => {
   return (
     <div className="stick_follow_icon">
-      <ul>
+      {/* <ul>
         {socialprofils.twitter && (
           <li>
             <a href={socialprofils.twitter}>
@@ -56,8 +56,8 @@ export const Socialicons = (params) => {
             </a>
           </li>
         )}
-      </ul>
-      <p>Follow Me</p>
+      </ul> */}
+      <p>Syncrop's</p>
     </div>
   );
 };

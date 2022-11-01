@@ -1,17 +1,17 @@
-const logotext = "JOHN";
+const logotext = "Syncrop's";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Syncrop's",
+    description: "Desarrollamos sitios perfectos --- Amamos la tecnologia, este es tu sitio si quieres mostrarte en internet o mostrar al mundo tus proyectos",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "Somos Syncrop's",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "Desarrollamos sitios perfectos",
+        second: "Nuestras webs son arte",
+        third: "No solo webs, tambien apps móviles :D",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "Bienvenido a nuestra web de presentación, aqui podrás contar con nuestro contacto y ver un poco de lo que llevamos hecho",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
@@ -136,9 +136,9 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
+    YOUR_EMAIL: "pulidogomez.alberto@gmail.com",
     YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    description: "Puedes contactarnos con el email de arriba o dejar una sugerencia en el formulario que tenemos disponible. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
