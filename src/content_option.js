@@ -12,7 +12,7 @@ const introdata = {
         third: "No solo webs, tambien apps móviles :D",
     },
     description: "Bienvenido a nuestra web de presentación, aqui podrás contar con nuestro contacto y ver un poco de lo que llevamos hecho",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    your_img_url: "https://images.wallpaperscraft.com/image/single/mountain_night_starry_sky_192065_3840x2160.jpg",
 };
 
 const dataabout = {

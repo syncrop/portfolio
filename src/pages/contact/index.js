@@ -72,10 +72,10 @@ export const ContactUs = () => {
           <title>{meta.title} | Contacto</title>
           <meta name="description" content={meta.description} />
         </Helmet>
-        <Row className="mb-5 mt-3">
+        <Row className="mt-3 mb-5">
           <Col lg="8">
-            <h1 className="display-4 mb-4">Contactanos</h1>
-            <hr className="t_border my-4 ml-0 text-left" />
+            <h1 className="mb-4 display-4">Contactanos</h1>
+            <hr className="my-4 ml-0 text-left t_border" />
           </Col>
         </Row>
         <Row className="sec_sp">
@@ -93,7 +93,7 @@ export const ContactUs = () => {
             </Alert>
           </Col>
           <Col lg="5" className="mb-5">
-            <h3 className="color_sec py-4">Get in touch</h3>
+            <h3 className="py-4 color_sec">Ponte en contacto</h3>
             <address>
               <strong>Email:</strong>{" "}
               <a href={`mailto:${contactConfig.YOUR_EMAIL}`}>
@@ -101,13 +101,13 @@ export const ContactUs = () => {
               </a>
               <br />
               <br />
-              {contactConfig.hasOwnProperty("YOUR_FONE") ? (
+              {/* {contactConfig.hasOwnProperty("YOUR_FONE") ? (
                 <p>
                   <strong>Phone:</strong> {contactConfig.YOUR_FONE}
                 </p>
               ) : (
                 ""
-              )}
+              )} */}
             </address>
             <p>{contactConfig.description}</p>
           </Col>
@@ -119,7 +119,7 @@ export const ContactUs = () => {
                     className="form-control"
                     id="name"
                     name="name"
-                    placeholder="Name"
+                    placeholder="Nombre"
                     value={formData.name || ""}
                     type="text"
                     required
@@ -143,7 +143,7 @@ export const ContactUs = () => {
                 className="form-control rounded-0"
                 id="message"
                 name="message"
-                placeholder="Message"
+                placeholder="Mensaje"
                 rows="5"
                 value={formData.message}
                 onChange={handleChange}
@@ -153,7 +153,7 @@ export const ContactUs = () => {
               <Row>
                 <Col lg="12" className="form-group">
                   <button className="btn ac_btn" type="submit">
-                    {formData.loading ? "Sending..." : "Send"}
+                    {formData.loading ? "Enviando..." : "Enviar"}
                   </button>
                 </Col>
               </Row>
