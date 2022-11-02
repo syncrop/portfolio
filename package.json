@@ -4,7 +4,7 @@
     "version": "0.1.0",
     "engines": {
         "node": "14.18.3"
-      },
+    },
     "private": true,
     "dependencies": {
         "@steveeeie/react-page-transition": "^1.2.1",
@@ -23,6 +23,7 @@
         "react-router-dom": "^5.2.0",
         "react-scripts": "4.0.1",
         "react-transition-group": "^4.4.2",
+        "swiper": "^8.4.4",
         "typewriter-effect": "^2.18.2",
         "web-vitals": "^0.2.4"
     },
