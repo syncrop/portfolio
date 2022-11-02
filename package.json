@@ -2,6 +2,9 @@
     "homepage": "http://ubaimutl.github.io/react-portfolio",
     "name": "react-portfolio",
     "version": "0.1.0",
+    "engines": {
+        "node": "14.18.3"
+      },
     "private": true,
     "dependencies": {
         "@steveeeie/react-page-transition": "^1.2.1",
