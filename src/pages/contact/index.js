@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import * as emailjs from "emailjs-com";
+import emailjs from 'emailjs-com';
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { meta } from "../../content_option";
@@ -17,6 +17,11 @@ export const ContactUs = () => {
     variant: "",
   });
 
+  const serviceID = 'service_83efpam';
+  const templateID = 'template_fwyqwm6';
+
+  const textarea = document.getElementById('message');
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setFormdata({ loading: true });
@@ -27,14 +32,12 @@ export const ContactUs = () => {
       to_name: contactConfig.YOUR_EMAIL,
       message: formData.message,
     };
+    textarea.value= '';
+
+    
 
     emailjs
-      .send(
-        contactConfig.YOUR_SERVICE_ID,
-        contactConfig.YOUR_TEMPLATE_ID,
-        templateParams,
-        contactConfig.YOUR_USER_ID
-      )
+      .send(serviceID, templateID, templateParams, contactConfig.YOUR_USER_ID)
       .then(
         (result) => {
           console.log(result.text);
@@ -52,16 +55,19 @@ export const ContactUs = () => {
             variant: "danger",
             show: true,
           });
+
           document.getElementsByClassName("co_alert")[0].scrollIntoView();
         }
       );
   };
 
   const handleChange = (e) => {
+    
     setFormdata({
       ...formData,
       [e.target.name]: e.target.value,
     });
+
   };
 
   return (

@@ -17,7 +17,9 @@ const introdata = {
 
 const dataabout = {
     title: "¡Hola!",
-    aboutme: "Veo que estas interesado en nuestros servicios... Le comento, porque todo lo que hacemos, es que todas tus ideas y proyectos que tengas en mente las plasmemos en Interrnet y puedas darte a conocer. A parte de que quieras mostrarte en internet podemos desarrollar su proyecto como aplicaciones funcionales y muy rápidas.",
+    aboutme: "Veo que estas interesado en nuestros servicios... Le comento, porque todo lo que hacemos, es que todas sus ideas y proyectos que tengas en mente " 
+        + "las plasmemos en Interrnet y puedas darte a conocer. A parte de que quieras mostrarte en internet podemos desarrollar su proyecto como aplicaciones "
+        + "funcionales y muy rápidas. Aparte de los servicios y habilidades que puedes ver en este portfolio, puedes acceder a mi perfil de Linkedin",
 };
 const worktimeline = [{
         jobtitle: "Diseños",
@@ -37,38 +39,42 @@ const worktimeline = [{
 ];
 
 const skills = [{
-        name: "Python",
+        name: "Javascript/Typescript",
+        value: 100,
+    },
+    {
+        name: "Angular",
+        value: 95,
+    },
+    {
+        name: "Ionic",
         value: 90,
-    },
-    {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
-        value: 80,
     },
     {
         name: "React",
         value: 60,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "Otras tecnologías",
+        value: 80,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Diseños Webs",
+        description: "Desarrollo de todo tipos de webs y proyectos, adaptados a todo tipo de dispositivos. Desde uso de Wordpress hasta webs 100% realizada por código y últimas tecnologías.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Apps Móviles",
+        description: "Implementamos todo tipo de aplicaciones para móviles llevandola a las tiendas de mercados de Google para Android y a la store de Apple.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Implementación de Estadísticas Webs",
+        description: "Informes semanales o diarios de estadísticas de la web o app que se tenga desarrollada y estudios de estas para dar una mejor visibilidad y afluencia en la web.",
+    },
+    {
+        title: "Mantenimiento y Corrección de Fallos",
+        description: "Mantenimientos mensuales y corrección de fallos de código de webs ya realizadas.",
     },
 ];
 
@@ -141,9 +147,9 @@ const contactConfig = {
     description: "Puedes contactarnos con el email de arriba o dejar una sugerencia en el formulario que tenemos disponible. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_83efpam",
+    YOUR_TEMPLATE_ID: "template_fwyqwm6",
+    YOUR_USER_ID: "7Z9yWdE1uHV4UGhgD",
 };
 
 const socialprofils = {

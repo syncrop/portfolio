@@ -27,7 +27,7 @@ export default function App() {
           innerSize={15}
           outerSize={15}
           color="255, 255 ,255"
-          outerAlpha={0.4}
+          outerAlpha={0}
           innerScale={0.7}
           outerScale={5}
         />

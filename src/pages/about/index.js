@@ -58,7 +58,7 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">Nuestras Habilidades</h3>
+            <h3 className="color_sec py-4">Nuestras Tecnologías</h3>
           </Col>
           <Col lg="7">
             {skills.map((data, i) => {
