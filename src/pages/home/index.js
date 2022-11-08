@@ -4,6 +4,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
+import FadeIn from 'react-fade-in';
 
 export const Home = () => {
   return (
@@ -37,25 +38,27 @@ export const Home = () => {
                     }}
                   />
                 </h1>
-                <p className="mb-1x">{introdata.description}</p>
-                <div className="pb-5 intro_btn-action">
-                  <Link to="/portfolio" className="text_2">
-                    <div id="button_p" className="ac_btn btn ">
-                      Proyectos
-                      <div className="ring one"></div>
-                      <div className="ring two"></div>
-                      <div className="ring three"></div>
-                    </div>
-                  </Link>
-                  <Link to="/contact">
-                    <div id="button_h" className="ac_btn btn">
-                      Contacto
-                      <div className="ring one"></div>
-                      <div className="ring two"></div>
-                      <div className="ring three"></div>
-                    </div>
-                  </Link>
-                </div>
+                <FadeIn delay={200}>
+                  <p className="mb-1x">{introdata.description}</p>
+                  <div className="pb-5 intro_btn-action">
+                    <Link to="/portfolio" className="text_2">
+                      <div id="button_p" className="ac_btn btn ">
+                        Proyectos
+                        <div className="ring one"></div>
+                        <div className="ring two"></div>
+                        <div className="ring three"></div>
+                      </div>
+                    </Link>
+                    <Link to="/contact">
+                      <div id="button_h" className="ac_btn btn">
+                        Contacto
+                        <div className="ring one"></div>
+                        <div className="ring two"></div>
+                        <div className="ring three"></div>
+                      </div>
+                    </Link>
+                  </div>
+                </FadeIn>
               </div>
             </div>
           </div>

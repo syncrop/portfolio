@@ -5,34 +5,34 @@ const meta = {
 };
 
 const introdata = {
-    title: "Somos Syncrop's",
+    title: "Hola soy Alberto Pulido creador de Syncrop's",
     animated: {
-        first: "Desarrollamos sitios perfectos",
-        second: "Nuestras webs son arte",
-        third: "No solo webs, tambien apps móviles :D",
+        first: "Desarrollamos todo tipos de webs y apps",
+        second: "Hacemos tus ideas realidad",
+        third: "Buscamos la perfección en nuestros sitios y proyectos",
     },
     description: "Bienvenido a nuestra web de presentación, aqui podrás contar con nuestro contacto y ver un poco de lo que llevamos hecho",
     your_img_url: "https://images.wallpaperscraft.com/image/single/mountain_night_starry_sky_192065_3840x2160.jpg",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "¡Hola!",
+    aboutme: "Veo que estas interesado en nuestros servicios... Le comento, porque todo lo que hacemos, es que todas tus ideas y proyectos que tengas en mente las plasmemos en Interrnet y puedas darte a conocer. A parte de que quieras mostrarte en internet podemos desarrollar su proyecto como aplicaciones funcionales y muy rápidas.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Diseños",
+        where: "Actuales",
+        date: "Atractivos",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Plataformas",
+        where: "Seguras",
+        date: "Rápidas",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Adaptados",
+        where: "Web",
+        date: "Móvil",
     },
 ];
 
@@ -149,7 +149,7 @@ const contactConfig = {
 const socialprofils = {
     github: "https://github.com",
     facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
+    linkedin: "https://www.linkedin.com/in/alberto-pulido-g%C3%B3mez-8787651a2/",
     twitter: "https://twitter.com",
     youtube: "https://youtube.com",
     twitch: "https://twitch.com",
