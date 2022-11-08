@@ -8,7 +8,7 @@ import balkyweb from "../../assets/images/balkyweb.png";
 import generali from "../../assets/images/generali-logo.png";
 import iberostar from "../../assets/images/iberostar.png";
 import FadeIn from 'react-fade-in';
-
+ 
 import 'swiper/swiper.min.css'
 import 'swiper/modules/pagination/pagination.min.css'
 
@@ -33,21 +33,21 @@ export const Portfolio = () => {
                 <img src={balkyweb} alt=""/>
                 <div className="content">
                       <h2>Balkyriaa web</h2><p>Una web personal para la descripción de una streamer en twitch.</p>
-                      <a href='https://balkyriaa.es' target='_blank'>Visitar sitio</a>
+                      <a href='https://balkyriaa.es' target='_blank' rel="noreferrer">Visitar sitio</a>
                   </div>
               </div>
               <div key='iberostar' className="po_item">
                   <img src={iberostar} alt=""/>
                   <div className="content">
                         <h2>Iberostar</h2><p>Desarrollo de páginas webs</p>
-                        <a href='https://iberostar.com' target='_blank'>Visitar sitio</a>
+                        <a href='https://iberostar.com' target='_blank' rel="noreferrer">Visitar sitio</a>
                     </div>
                 </div>
               <div key='generali' className="po_item">
                   <img src={generali} alt="" className="py-4 px-4"/>
                   <div className="content">
                     <h2>Mi Generali</h2><p>Colaboración en la creación de la web y aplicación desde cero.</p>
-                    <a href='https://www.generali.es/webapps/mi-generali/#/login' target='_blank'>Visitar sitio</a>
+                    <a href='https://www.generali.es/webapps/mi-generali/#/login' target='_blank' rel="noreferrer">Visitar sitio</a>
                   </div>
                 </div>
               
