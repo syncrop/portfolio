@@ -3,7 +3,7 @@
     "name": "react-portfolio",
     "version": "0.1.0",
     "engines": {
-        "node": "14.18.3"
+        "node": "16.18.1"
     },
     "private": true,
     "dependencies": {
